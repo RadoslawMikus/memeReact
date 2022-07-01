@@ -130,9 +130,10 @@ MEME
 }
 
 .memeButtons {
-  width: 25%;
+  width: 26%;
   display: flex;
   justify-content: space-between;
+  gap: 8px;
 }
 
 .memeButtonsLeft,
@@ -156,7 +157,7 @@ MEME
 ADD TO FAVORITE
 ----------------------------- */
 .addToFav {
-  width: 75%;
+  width: 74%;
   display: flex;
   align-items: flex-end;
 }
@@ -226,4 +227,18 @@ PAGE404
   height: calc(100vh - 60px);
   color: #00d700;
   background-color: #000;
+}
+
+@media only screen and (max-width: 450px) {
+  .Meme {
+    width: 100%;
+  }
+  .Meme img {
+    width: 100%;
+    height: auto;
+  }
+
+  .favoritesLink {
+    width: 35px;
+  }
 }
