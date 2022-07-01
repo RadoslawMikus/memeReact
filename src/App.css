@@ -196,8 +196,7 @@ ADD NEW MEME
 }
 
 .AddNewMeme button {
-  width: 15%;
-  padding: 8px 15px;
+  padding: 10px 30px;
   display: block;
   margin: 50px 0 0 auto;
   font-size: 20px;
@@ -229,6 +228,16 @@ PAGE404
   background-color: #000;
 }
 
+@media only screen and (max-width: 900px) {
+  .addNewMemeBox {
+    width: 70%;
+  }
+
+  .AddNewMeme form input {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .Meme {
     width: 100%;
@@ -240,5 +249,9 @@ PAGE404
 
   .favoritesLink {
     width: 35px;
+  }
+
+  .addNewMemeBox {
+    width: 80%;
   }
 }
