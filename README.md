@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+## memeReact
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Repository: https://github.com/davidsmith931/memeReact/
+### Live project: https://davidsmith931.github.io/memeReact 
+(It will show you Error404 at the beggining). Ignore it and just click on /regular. Then, you can use the site with full functionality.
 
-## Available Scripts
+### 😉 &nbsp; Navigation 
 
-In the project directory, you can run:
+_I failed math so many times at school, I can’t even count_
 
-### `npm start`
+- [X] Prepare navbar with all links
+- [X] Style navbar with CSS
+- [X] Add route /regular with memes where upvotes - downvotes < 5,
+- [X] Add route /hot with memes where upvotes - downvotes >= 5,
+- [X] Add route /favorite with memes where favorite === true,
+- [X] Add route /add, where new meme can be added 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 😂 &nbsp; Routes to memes
+_My father has schizophrenia, but he’s good people_
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [X] /regular - memes with (upvotes - downvotes) < 5
+- [X] /hot - memes with (upvotes - downvotes) >=5
+- [X] /favorite with (favorite === true)
+- [X] /add where a new meme can be added
 
-### `npm test`
+### 😁 &nbsp; Inside routes
+_Never trust atoms, they make up everything_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [X] Code Upvote handler
+- [X] Code Downvote handler
+- [X] Code Add to favorites handler
+- [X] Code Add new meme handler
+- [X] Prepare the "Add New Meme" form
 
-### `npm run build`
+### 😅 &nbsp; Other
+_I threw a boomerang a couple years ago. Now, I live in constant fear_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [X] Prepare an array with memes
+- [X] Code and style Meme component
+- [X] Add comments to App.js
+- [X] Prepare a very complicated website template
