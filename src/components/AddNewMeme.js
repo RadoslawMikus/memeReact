@@ -14,7 +14,7 @@ function AddNewMeme(props) {
           <input
             type="url"
             id="url"
-            placeholder="https://example.com"
+            placeholder="Link do obrazka (https://example.com)"
             pattern="https?://.*"
             required
           />

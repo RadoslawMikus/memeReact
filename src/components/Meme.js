@@ -8,16 +8,15 @@ function Meme(props) {
           <span>⭐️💛⭐️💛⭐️💛⭐️💛⭐️💛⭐️💛⭐️💛⭐️</span>
         )}
       </div>
-      <h1>{memeContent.title}</h1>
-      <img src={memeContent.img} />
-      <h1>{memeContent.favorite}</h1>
+      <div className="title">{memeContent.title}</div>
+      <img src={memeContent.img} alt={memeContent.alt} />
       <div className="memeControls">
         <div className="addToFav">
           <span>
             ⭐️ ->
             <input
               onClick={() => {
-                props.AddToFav();
+                props.addToFav();
               }}
               type="checkbox"
               defaultChecked={memeContent.favorite === true ? true : false}
@@ -30,7 +29,7 @@ function Meme(props) {
             <h4>+{memeContent.upvotes}</h4>
             <button
               onClick={() => {
-                props.Upvote();
+                props.upvote();
               }}
             >
               +
@@ -42,7 +41,7 @@ function Meme(props) {
             <h4>-{memeContent.downvotes}</h4>
             <button
               onClick={() => {
-                props.Downvote();
+                props.downvote();
               }}
             >
               -
