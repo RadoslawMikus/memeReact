@@ -5,7 +5,7 @@ function Meme(props) {
     <div className="Meme">
       <div className="favoriteBar">
         {memeContent.favorite === true && (
-          <span>⭐️💛⭐️💛⭐️💛⭐️💛⭐️💛⭐️💛⭐️💛</span>
+          <span>⭐️💛⭐️💛⭐️💛⭐️💛⭐️💛⭐️💛⭐️</span>
         )}
       </div>
       <div className="title">{memeContent.title}</div>
