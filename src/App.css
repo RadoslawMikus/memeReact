@@ -38,14 +38,14 @@ nav ul {
 nav ul .active {
   background-color: #3b3b3b;
 }
-nav ul .active li a {
+nav ul li a {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-nav ul .active li:hover {
+nav ul li:hover {
   background-color: #808080;
 }
 
@@ -218,7 +218,6 @@ PAGE404
   .addNewMemeBox {
     width: 70%;
   }
-
   .AddNewMeme form input {
     font-size: 16px;
   }
@@ -231,11 +230,9 @@ PAGE404
     width: 100%;
     height: auto;
   }
-
   .favoritesLink {
     width: 35px;
   }
-
   .addNewMemeBox {
     width: 80%;
   }
