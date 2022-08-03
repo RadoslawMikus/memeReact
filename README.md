@@ -1,7 +1,7 @@
 ## memeReact
 
-### Repository: https://github.com/davidsmith931/memeReact/
-### Live project: https://davidsmith931.github.io/memeReact 
+### Repository: https://github.com/RadoslawMikus/memeReact
+### Live project: https://radoslawmikus.github.io/memeReact/
 
 The goal is to prepare the app with IT memes using React.
 
